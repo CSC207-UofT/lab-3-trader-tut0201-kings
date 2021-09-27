@@ -19,19 +19,19 @@ public class SledTest {
 
     @Test(timeout = 50)
     public void TestGetMaxSpeed() {
-        assertEquals(1, s.getMaxSpeed());
+        assertEquals(2, s.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestUpgradeSpeed() {
         s.upgradeSpeed();
-        assertEquals(2, s.getMaxSpeed());
+        assertEquals(3, s.getMaxSpeed());
     }
 
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
         s.downgradeSpeed();
-        assertEquals(0, s.getMaxSpeed());
+        assertEquals(1, s.getMaxSpeed());
     }
 
     @Test(timeout = 50)
@@ -47,7 +47,7 @@ public class SledTest {
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(10, s.getPrice());
+        assertEquals(5, s.getPrice());
     }
 
 }
