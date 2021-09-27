@@ -3,10 +3,9 @@
  * You should NOT modify this file!
  */
 
-import org.junit.*;
-
 import static org.junit.Assert.*;
 
+import org.junit.*;
 
 public class PenguinTest {
     Penguin p;
@@ -30,5 +29,4 @@ public class PenguinTest {
     public void TestGetName() {
         assertEquals("Rico", p.getName());
     }
-
 }
