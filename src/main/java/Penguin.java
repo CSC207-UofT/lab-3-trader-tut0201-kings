@@ -13,7 +13,7 @@ class Penguin implements Tradable, Domesticatable {
      * Returns the sound that a Penguin makes
      *
      * @return the sound of a Penguin
-     **/ 
+     **/
     @Override
     public String sound() {
         return "MEEP";
@@ -23,7 +23,8 @@ class Penguin implements Tradable, Domesticatable {
      * Provides the name of a given Penguin
      *
      * @return the name of the Penguin
-     **/ public String getName() {
+     **/
+    public String getName() {
         return "Rico";
     }
 }
